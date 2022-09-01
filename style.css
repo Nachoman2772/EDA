@@ -1,0 +1,166 @@
+/* general */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Exo 2', sans-serif;
+}
+main {
+    height: 80vh;
+}
+/* etiquetas */
+html {
+    height: 100%;
+}
+body {
+    background: url(./images/condores.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Lato', sans-serif;
+    min-height: 100%;
+    }
+
+h2 {
+    color: white;
+    padding: 20px;
+}
+h3 {
+    color: white;
+    margin-left: 10px;
+}
+a {
+    text-decoration: none;
+}
+p {
+    line-height: 1.7;
+    color: white;
+    margin-left: 10px;
+}
+ul {
+    list-style-type: none;
+    }
+img {
+    border-radius: 15px;
+}
+footer {
+    color: white;
+    text-align: center;
+    bottom: 0;
+   }
+/* class */
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-size: cover;
+    background-position-y: center;
+    padding: 20px 20px 20px 20px;
+    background-color: #4778AC;
+}
+.headercontent {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.headercontenttitle {
+    color: white;
+    padding: 5px;
+}
+.centrado {
+    justify-items: center;
+    text-align: center;
+    justify-content: center;
+    }
+.header__content-navbar {
+    display: flex;
+}
+.portada {
+    display: grid;
+    margin-top: 10px;
+    padding: 20px;
+}
+.imagen__inicio {
+    width: 400px;
+    height: auto;
+}
+.tabla__flota {
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    color: white;
+    margin-left: 10px;
+    padding: 20px;
+    flex-direction: column;
+}
+.header__content-navbar a {
+    padding: 20px;
+    margin: 0 15px;
+    color: white;
+    font-weight: bold;
+}
+.encabezado {
+    font-family: 'arial';
+    text-align: left;
+    color: white;
+    font-weight: 700;
+}
+.quienes__somos-img {
+    padding: 20px;
+}
+.flota{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    }
+.tarjetas {
+    border-top: 50px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 60%);
+}
+.tarjetas_header {
+    position: relative;
+
+}
+.imagen_tarjetas {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.titulo {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: black;
+}
+.descripcion {
+    margin-bottom: 40px;
+    color: black;
+}
+.links {
+    
+    background-color:black;
+    display: inline-block;
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+    color: #e2e8f0;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 25px 25px 50px -12px rgba(226, 231, 235, 0.6);
+}
+.contact__form {
+    color: white;
+}
+.cursos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    }
