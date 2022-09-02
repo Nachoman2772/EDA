@@ -51,6 +51,7 @@ footer {
     text-align: center;
     bottom: 0;
    }
+
 /* class */
 .header {
     position: sticky;
@@ -58,8 +59,9 @@ footer {
     z-index: 1;
     background-size: cover;
     background-position-y: center;
-    padding: 20px 20px 20px 20px;
-    background-color: #4778AC;
+    padding: 10px 10px 10px 10px;
+    border-radius: 0px 0px 20px 20px;
+    background-image: url(./images/comercial.jpg);
 }
 .headercontent {
     display: flex;
@@ -78,6 +80,7 @@ footer {
     }
 .header__content-navbar {
     display: flex;
+    
 }
 .portada {
     display: grid;
@@ -170,6 +173,9 @@ footer {
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
     }
+.gradiente {
+    background:linear-gradient(to top ,rgb(136, 131, 131), white)
+}
 .animacion_slide {
     animation-duration: 1.5s;
     animation-name: slidein;
