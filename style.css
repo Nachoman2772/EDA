@@ -167,7 +167,7 @@ footer {
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
     }
-.animacion_portada {
+.animacion_slide {
     animation-duration: 1s;
     animation-name: slidein;
 }
