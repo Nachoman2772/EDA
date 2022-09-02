@@ -117,13 +117,7 @@ footer {
     max-width: 1200px;
     margin: 0 auto;
     }
-.tarjetas {
-    position: relative;
-    border-top: 50px;
-    padding: 25px;
-    border-radius: 10px;
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 60%);
-}
+
 .tarjetas_header {
     position: relative;
     max-width: 300px;
@@ -145,11 +139,21 @@ footer {
     margin-bottom: 40px;
     color: black;
 }
+.tarjetas {
+    position: relative;
+    border-top: 50px;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 60%);
+}
 .links {
+    position: absolute;
+    top: 93%;
+    left: 35%;
     background-color:black;
     display: inline-block;
-    width: 100%;
-    padding: 5px 0;
+    width: auto;
+    padding: 5px;
     text-align: center;
     color: #e2e8f0;
     border-radius: 10px;
