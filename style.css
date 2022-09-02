@@ -44,7 +44,10 @@ img {
     border-radius: 15px;
 }
 footer {
+    position: fixed;
+    left: 40%;
     color: white;
+    background-color: #4778AC;
     text-align: center;
     bottom: 0;
    }
@@ -190,3 +193,4 @@ footer {
     0% { opacity: 0; }
     100% { opacity: 1; }    
 }
+
