@@ -81,10 +81,7 @@ footer {
     margin-top: 10px;
     padding: 20px;
 }
-.imagen__inicio {
-    /* width: 400px;
-    height: ; */
-}
+
 .tabla__flota {
     padding: 20px;
     border-radius: 10px;
@@ -170,3 +167,18 @@ footer {
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
     }
+.animacion_portada {
+    animation-duration: 1s;
+    animation-name: slidein;
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
