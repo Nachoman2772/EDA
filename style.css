@@ -168,7 +168,7 @@ footer {
     gap: 40px;
     }
 .animacion_slide {
-    animation-duration: 1s;
+    animation-duration: 1.5s;
     animation-name: slidein;
 }
 @keyframes slidein {
@@ -178,6 +178,15 @@ footer {
     }
   
     to {
-            width: 100%;
+      margin-left: 0%;
+      width: 100%;
     }
+}
+.animacion_fade-in {
+    animation: fadeIn 1.5s;
+    animation-name:animacion_fade-in ;
+    }
+@keyframes animacion_fade-in {
+    0% { opacity: 0; }
+    100% { opacity: 1; }    
 }
