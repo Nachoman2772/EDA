@@ -118,6 +118,7 @@ footer {
     margin: 0 auto;
     }
 .tarjetas {
+    position: relative;
     border-top: 50px;
     padding: 25px;
     border-radius: 10px;
@@ -125,6 +126,8 @@ footer {
 }
 .tarjetas_header {
     position: relative;
+    max-width: 300px;
+    max-height: 300px;
 
 }
 .imagen_tarjetas {
@@ -143,7 +146,6 @@ footer {
     color: black;
 }
 .links {
-    
     background-color:black;
     display: inline-block;
     width: 100%;
