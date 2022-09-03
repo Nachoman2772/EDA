@@ -176,6 +176,9 @@ footer {
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
     }
+.mapa {
+    border-radius: 15px;
+}
 .gradiente {
     background:linear-gradient(to top ,rgb(136, 131, 131), white)
 }
