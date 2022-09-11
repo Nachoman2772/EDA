@@ -35,8 +35,10 @@ a {
 p {
     line-height: 1.7;
     color: white;
-    margin-left: 10px;
 }
+.texto {
+    margin: 25px 225px    
+} 
 ul {
     list-style-type: none;
     }
