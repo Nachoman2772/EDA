@@ -78,9 +78,11 @@ footer {
     text-align: center;
     justify-content: center;
     }
+.navbar a:hover {
+    color: grey;
+}
 .header__content-navbar {
     display: flex;
-    
 }
 .portada {
     display: grid;
