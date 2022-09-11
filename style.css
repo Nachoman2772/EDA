@@ -74,16 +74,15 @@ footer {
     padding: 5px;
 }
 .centrado {
-    justify-items: center;
     text-align: center;
     justify-content: center;
 }
 .navbar {
-font-size: 15px;
-line-height: 38px;
-letter-spacing: 0.350em;
-font-weight: 500;
-font-style: normal
+    font-size: 15px;
+    line-height: 38px;
+    letter-spacing: 0.350em;
+    font-weight: 500;
+    font-style: normal
 }
 .navbar li:hover:first-child::after {
     content: "🏠";
@@ -98,6 +97,7 @@ font-style: normal
 }
 .header__content-navbar {
     display: flex;
+    align-items: center;
 }
 
 .portada {
@@ -121,8 +121,15 @@ font-style: normal
     margin: 0px 20px;
     color: white;
     font-weight: bold;
-    transition: 0.9s;
+    transition: 0.7s;
 }
+.header__content-navbar li:active {
+    transform:scale(0.9)
+}
+.header__content-navbar li {
+    transition: 0.3s;
+}
+
 .encabezado {
     font-family: 'arial';
     text-align: left;
@@ -167,7 +174,11 @@ font-style: normal
     padding: 35px;
     border-radius: 10px;
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 60%);
+    transition: transform 0.3s;
 }
+.tarjetas:hover {
+    transform: translateY(-10px);
+} 
 .links {
     position: absolute;
     top: 93%;
@@ -183,6 +194,9 @@ font-style: normal
     font-weight: bold;
     font-size: 16px;
     box-shadow: 25px 25px 50px -12px rgba(226, 231, 235, 0.6);
+}
+.links a :hover {
+    background-color: #030c16;
 }
 .contact__form {
     color: white;
