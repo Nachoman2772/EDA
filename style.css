@@ -77,13 +77,29 @@ footer {
     justify-items: center;
     text-align: center;
     justify-content: center;
-    }
+}
+.navbar {
+font-size: 15px;
+line-height: 38px;
+letter-spacing: 0.350em;
+font-weight: 500;
+font-style: normal
+}
+.navbar li:hover:first-child::after {
+    content: "🏠";
+    color: #4778AC;
+}
 .navbar a:hover {
     color: grey;
+}
+.navbar li::before {
+    content: "\2708";
+    color: cornflowerblue;
 }
 .header__content-navbar {
     display: flex;
 }
+
 .portada {
     display: grid;
     margin-top: 10px;
@@ -102,9 +118,10 @@ footer {
 }
 .header__content-navbar a {
     padding: 20px;
-    margin: 0 15px;
+    margin: 0px 20px;
     color: white;
     font-weight: bold;
+    transition: 0.9s;
 }
 .encabezado {
     font-family: 'arial';
